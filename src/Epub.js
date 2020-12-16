@@ -88,7 +88,7 @@ class Epub extends Component{
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-
+    return true;
     if (nextState.show !== this.state.show) {
       return true;
     }
